@@ -40,10 +40,10 @@ query-comment: string
 
 require-dbt-version: version-range
 
-quoting:
+[quoting](project-configs/quoting.md):
   database: true | false
-  identifier: true | false
   schema: true | false
+  identifier: true | false
 
 models:
   <model-configs>
@@ -69,3 +69,4 @@ Relevant links:
 * [on-run-start](project-configs/on-run-start.md)
 * [on-run-end](project-configs/on-run-end.md)
 * [query-comment](project-configs/query-comment.md)
+* [quoting](project-configs/quoting.md)

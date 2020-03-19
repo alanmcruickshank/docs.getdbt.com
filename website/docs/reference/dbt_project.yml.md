@@ -38,7 +38,7 @@ clean-targets: [directorypath]
 
 query-comment: string
 
-require-dbt-version: version-range
+[require-dbt-version](project-configs/require-dbt-version.md): version-range
 
 [quoting](project-configs/quoting.md):
   database: true | false
@@ -69,4 +69,5 @@ Relevant links:
 * [on-run-start](project-configs/on-run-start.md)
 * [on-run-end](project-configs/on-run-end.md)
 * [query-comment](project-configs/query-comment.md)
+* [require-dbt-version](project-configs/require-dbt-version.md)
 * [quoting](project-configs/quoting.md)
